@@ -1,0 +1,253 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root{
+    scroll-behavior: smooth;
+}
+
+body{
+    font-family: 'Changa', sans-serif;
+   
+    
+}
+
+
+.contenedor{
+    width: 90%;
+    max-width: 1200px;
+    overflow: hidden;
+    margin: auto;
+    padding: 60px 0;
+
+}
+ 
+
+
+/*-------Navbar------*/
+
+.navbar-brand img{
+    width: 120px;
+} 
+
+.navbar-nav{
+    text-align: center;    
+}
+
+
+.navbar-nav a {
+    margin: 0 10px;
+    font-size: 1.2rem;
+    color: white;
+    letter-spacing: 2px;  
+  }
+
+  .navbar-nav a:hover {
+    text-decoration: underline;
+    font-weight: bold; 
+  }
+
+/*header*/
+
+header {
+    height: 100vh;
+    background-image: linear-gradient(to top, rgba(251, 87, 87, 0.305) 0%, rgba(87, 14, 72, 0.295) 100%),url(../media/fondo2.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+.head {
+    text-align: center;
+    padding: 0;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    color: rgb(244, 252, 246);
+}
+
+.titulo{
+    font-size: 40px;
+    margin-bottom: 15px;
+}
+
+.copy{
+    font-weight: 300;
+    font-size: 20px ;
+    font-weight: bold;
+    font-style: italic;
+}
+
+.subtitulo{
+    color: whitesmoke;
+}
+
+/* pages */
+
+.contPage{
+    background: transparent;
+    border-radius: 30px;
+    margin: 30px 50px;
+    padding: 10px 0 ;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    box-shadow: 0px 1px 22px 1px rgba(255, 50, 50, 0.631);
+}
+
+/*-----Video------*/
+.contVideo{    
+    margin: 20px;
+    width: 80%;
+   /*  border: 2px solid blue;
+    border-radius: 10px; */
+     
+}
+
+.video{    
+    width: 100%;
+    border-radius: 10px;
+}
+
+
+/*FOOTER*/
+
+footer{
+    background: rgb(21, 21, 21);
+    padding-bottom: 0.1px;
+
+}
+
+.footer-content{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    padding-top: 60px;
+    padding-bottom: 40px;
+
+}
+
+.contact-us{
+    width: 40%;
+    color: white;
+
+}
+.brand{
+    font-weight: 400;
+    font-size: 40px;
+}
+
+.brand+p{
+    font-weight: 400;
+}
+.social-media{
+    width: 50%;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.social-media-icon{
+    display: inline-block;
+    margin-left: 20px;
+    width: 60px;
+    height: 60px;
+    border: 1px solid #fff;
+    border-radius: 50%;
+    text-align: center;
+    color: #fff;
+}
+
+.social-media-icon:hover{
+    background: white;
+    color: blue;
+
+}
+    
+.social-media-icon i{
+    font-size: 30px;
+    line-height: 60px;
+}
+
+.line{
+    width: 90%;
+    max-width: 1200px;
+    margin: 0 auto;
+    height: 2px;
+    background: white;
+    margin-bottom: 60px;
+
+}
+
+
+@media screen and(max-width:800px) {
+
+
+    .titulo{
+        font-size: 40px;
+    }
+    
+    .footer-content{
+        justify-content: center;
+    }
+
+    .social-media{
+        width: 80%;
+        justify-content: space-evenly;
+    }
+
+    .social-media-icon{
+        margin-left: 0;
+    }
+
+    .social-media-icon:hover{
+        background: white;
+        color: blue;
+    }
+
+    .contact-us{
+        text-align: center;
+        width: 80%;
+        margin-bottom: 40px;
+    }
+}
+
+@media screen and (max-width: 500px){
+   
+
+    .titulo{
+        font-size: 30px;
+    }
+
+    .subtitulo{
+        font-size: 30px;
+    }
+
+   
+    .social-media{
+        width: 100%;
+        justify-content: space-evenly;
+    }
+
+    .social-media-icon{
+        margin-left: 0;
+    }
+
+    .social-media-icon:hover{
+        background: white;
+        color: blue;
+    }
+
+    .contact-us{
+        text-align: center;
+        width: 95%;
+        margin-bottom: 40px;
+    }
+
+}
+
