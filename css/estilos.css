@@ -121,6 +121,8 @@ a.social-icon {
   line-height: 60px;
 }
 
+
+
 .titulo {
   font-size: 40px;
   font-family: 'Oswald', sans-serif;
@@ -154,7 +156,7 @@ main{
     grid-column-gap: 0px;
     grid-row-gap: 0px;
     
-}
+} 
 
 
 .contPage {
@@ -169,9 +171,9 @@ main{
 }
 
 .iconos {
-  display: flex;
-  margin: 5px;
-}
+  
+  margin: 10px 0 ;
+} 
 
 .iconos p {
   font-size: 1.2rem;
@@ -181,7 +183,7 @@ main{
 
 .iconos i {
   font-size: 35px;
-  line-height: 30px;
+  line-height: 10px;
   margin: 0 5px;
 }
 
